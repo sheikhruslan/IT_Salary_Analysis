@@ -32,13 +32,13 @@ Run the script:
 python IT_Salary_Analysis.py
 ```
 
-## Analysis Performed
+# Analysis Performed
 
 Position Categorization: Positions are categorized into different groups such as "IT and Development", "Data and Analytics", etc.
 
 Data Cleaning: Column names are stripped of any leading or trailing whitespace.
 
-Salary Analysis:
+## Salary Analysis:
 
 Average yearly salary for each position category is calculated and displayed.
 
@@ -56,8 +56,13 @@ Output
 ## The script outputs various statistics and plots, including:
 
 Average yearly salary by position category.
+
 Histograms for salary and age distributions.
+
 Histograms for sample means of salary and age.
+
 Q-Q plots for sample means.
+
 Standard error of the mean and 95% confidence intervals for salary and age.
+
 Results of the one-way ANOVA for yearly salary by main language at work.
